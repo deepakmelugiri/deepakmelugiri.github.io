@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -102,7 +102,7 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    /*color: #222;*/
 }
 
 .navbar-default .nav > li>a:hover,
@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: black;
-    background-image: url(../img/header-2.jpg);
+    background-image: url(../img/header-3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -475,4 +475,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.fa.fa-linkedin:hover, .fa.fa-envelope:hover, .fa.fa-github:hover {
+    font-size: 4em;
+    transition: 1s ease-out;
+    text-decoration: none;
 }
