@@ -254,7 +254,7 @@ header .header-content .header-content-inner p {
     }
 
     .text-para {
-        border-top: 4px solid black;
+        padding-top: 50px;
     }
 }
 
@@ -286,6 +286,7 @@ header .header-content .header-content-inner p {
 
     .text-para {
         border-left: 4px solid black;
+        padding-top: 50px;
         border-top: none;
     }
 }
@@ -532,8 +533,12 @@ body {
         font-size: small !important;
     }
 
+    .img-primary {
+        margin-top: 10px;
+    }
+
     .text-para {
-        border-top: 4px solid black;
+        padding-top: 15px;
     }
 }
 
