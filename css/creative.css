@@ -10,6 +10,8 @@ body {
     height: 100%;
 }
 
+
+
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
@@ -47,12 +49,15 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
     line-height: 1.5;
 }
 
 .bg-primary {
     background-color: #f05f40;
+}
+
+.img-primary {
+    margin-top: 50px;
 }
 
 .bg-dark {
@@ -61,11 +66,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
-}
-
-section {
-    padding: 100px 0;
+    color: black;
 }
 
 aside {
@@ -239,6 +240,22 @@ header .header-content .header-content-inner p {
         font-size: 24px;
         font-weight: bold;
     }
+
+    .row-primary {
+        margin-top: 50px;
+    }
+
+    .bg-primary {
+        padding-top:50px;
+    }
+
+    .text-faded {
+        font-size: larger;
+    }
+
+    .text-para {
+        border-top: 4px solid black;
+    }
 }
 
 .section-heading {
@@ -253,6 +270,23 @@ header .header-content .header-content-inner p {
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
+    }
+
+    .row-primary {
+        margin-top: 90px;
+    }
+
+    .bg-primary {
+        padding-top:100px;
+    }
+
+    .text-faded {
+        font-size: larger;
+    }
+
+    .text-para {
+        border-left: 4px solid black;
+        border-top: none;
     }
 }
 
@@ -482,3 +516,24 @@ body {
     transition: 1s ease-out;
     text-decoration: none;
 }
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    /* some CSS here */
+    .row-primary {
+        margin-top: 10px;
+    }
+
+    .bg-primary {
+        padding: 0px 0px;
+    }
+
+    .text-faded {
+        font-size: small !important;
+    }
+
+    .text-para {
+        border-top: 4px solid black;
+    }
+}
+
